@@ -1,0 +1,264 @@
+element.style {
+    height: 25 px;
+    width: 25 px;
+    border: 1 px solid;
+    background-image: url(
+    https://picsum.photos/150);
+    }
+    
+    logo.icon {
+        border: 1px solid;
+        background-image: url(
+        https://picsum.photos/150);
+        height: 25 px;
+        width: 25 px;
+    }
+    
+    article {
+        display: block;
+        unicode-bidi: isolate;
+    }
+    
+    .nav-container {
+    display: flex;
+    }
+    
+    .nav-item {
+        border: 1px solid;
+        padding: 8px;
+    }
+    
+    
+    .main-title {
+        text-align: center;
+    }
+    
+    .main-content {
+        display: flex;
+    }
+    
+    .main-content-item {
+        border: 1px solid;
+        width: 100 px;
+        height: 250 px;
+    }
+    
+    .main-content-banner {
+        border: 1px solid;
+        width: 100 px;
+        height: 150 px;
+        background-image: url(https://picsum.photos/150);
+    }
+    
+    .nav-container {
+            background-color: rgb(44, 47, 198);
+            padding: 10px;
+            /* border: 1px solid; */
+            border-radius: 1%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+    }
+    
+    
+
+.nav-container{
+    background-color: rgb(236, 236, 236);
+    display: flex;
+}
+
+.nav-item{
+    padding: 9px;
+    background-color: #b3a89f;
+    /* border: 1px solid; */
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.main-title{
+    text-align: center;
+    padding: 20px;
+}
+
+.main-content{
+    display: flex;
+}
+
+    .main-content-item{
+        /* border: 1px solid; */
+        width: 80%;
+        height: 500px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-content-banner {
+        width: 100px;
+        height: 150px;
+    }
+
+    .banner-1 {
+        background-image: (week 2/assets/1.jpg);
+    }
+
+    .banner-2 {
+        background-image: (week 2/assets/2.jpg);
+    }
+
+    .banner-3 {
+        background-image: (week 2/assets/3.jpg);
+    }
+
+    .profil{
+        text-align: left;
+    }
+    .main-item{
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-top: 20px;
+    }
+
+    .form-content{
+        margin-left: 40px;
+        margin-right: 40px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    label{
+        width: 70%;
+        margin: 10px 10px 5px 0px;
+    }
+
+    select{
+        width: 75%;
+        height: 10%;
+        padding: 10px;
+        
+    }
+
+    button{
+        background-color: #b3a89f;
+        border-radius: 5px;
+        font-size: 17px;
+        margin-top: 10px;
+        padding: 6px;
+        position: relative;
+        width: 20%;
+    }
+    
+
+    .item-icon{
+        height: 50px;
+        width: 50px;
+        /* border: 1px solid; */
+        margin: 0px 10px 50px 0px;
+        background-image: url(https://i.pinimg.com/564x/f9/de/65/f9de656bcefbe20064af93c4ef5aa578.jpg);
+        background-size: cover;
+        border-radius: 50%;
+    }
+    
+
+input{
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+    button{
+        width: 45%;
+    }
+
+.separator{
+    background-color: #dbdbdb;
+    text-align: center;
+    padding: 50px;
+}
+
+
+
+.menu-detail{
+    /* border: 1px solid; */
+    /* display:flex; */
+    width: 30%;
+    margin: 10px 0px;
+    /* background-color: #27263b75; */
+    padding: 90px 5px 0px 90px;
+    border-radius: 10px
+}
+
+.main-item-bawah{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+h3{
+    margin: 0px;
+}
+
+.penjelasan-icon{
+    width: 60%;
+}
+
+.indonesia{
+    height: 50px;
+    width: 50px;
+    margin: 0px 10px 50px 0px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREWLFmtjLOu-R5lo97dYBEGBtBvza0ARA5n608KI3EE0r1anDoulAwEy81kC4XrnGGBro&usqp=CAU);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.china{
+    height: 50px;
+    width: 50px;
+    margin: 0px 10px 50px 0px;
+    background-image: url(https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcR3NaQbcJpl3kwAhUx_PAXI-H1KbWmlqcJVEfIQEUiCnJD2_BXENJ3N6Fyry04Pjz0AR2re4tEq_K2mSRV7VwCkFz54fSZkkmDSZSEnGg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.india{
+    height: 50px;
+    width: 50px;
+    margin: 0px 10px 50px 0px;
+    background-image: url(https://riauaktual.com/application/views/web/berita/2026636060-fakta_negara_india_taj_mahal_india.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+
+.button-bawah{
+    text-align: center;
+    margin: 10px;
+    padding: 10px 100px;
+    margin-bottom: 90px;
+}
+
+footer{
+    background-color: #ececec;
+    align-items: center;
+    align-content: center;
+    padding-top: 20px;
+    text-align: center;
+}
+.footer{
+    background-color: #ececec;
+    text-align: center;
+    align-content: center;
+    height: 50px;
+    margin-top: 0px;
+}
+

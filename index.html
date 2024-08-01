@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="i/Users/dimitriyola/coding/RevoU/week 2/style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo-web"><img src="assets/1.jpg" width="100px">
+        </div>
+
+        <section class="nav-container">
+            <a class="nav-item">Home</a>
+            <a class="nav-item">Our Package</a>
+            <a class="nav-item">Call Us</a>
+        </section>
+    
+    </nav>
+
+/* edit dari day 5
+
+
+<body>
+    <nav>
+        <section class="nav-container">
+            <a class="nav-item">Home</a>
+            <a class="nav-item">Our Package</a>
+            <a class="nav-item">Call Us</a>
+        </section>
+    </nav>
+
+    <main> 
+        <article class="main=title">
+            <header>
+                <h1>Your Trusted travel agent</h1>
+            </header>
+
+            <p> your happiness is our happiness</p>
+        </article>
+
+
+        <section class="main-content">
+            <article class="main-content-item">
+                <div class="main-content-banner"> </div>
+            
+
+                <div> 
+                    <div class="item-icon" style="
+                        height: 25px;
+                        width: 25px;
+                        border: 1px solid;
+                        background-image: url(
+                            https://picsum.photos/150);
+                        "></div>
+
+                <div> 
+                    <h3> lorem ipsum dolor </h3>
+                    <p> Lorem ipsum dolor. </p>
+
+                </div>
+                </div>
+
+            </article>
+
+            <form class="main-content-item"> </form>
+        </section>
+    </main>
+    <nav>
+
+ */
+
+    <main>
+
+        <section class="main-content-banner">
+            <article class="main-content-item">
+                 <div class="main-banner"><img src="assets/3.jpg" height="90%"></div>
+
+                 <div class="main-item">
+                    <div class="item-icon"></div>
+                
+                    <div class="profil">
+                        <h3>RevoU flight company</h3>
+                        <p>Your trusted travel agent</p>
+                    </div>
+                 </div>
+            </article>
+            
+            <form  class="form-content">
+                <header>
+                    <h3>Contact Us</h3>
+                    <p>Our customer service will contact you within 1x24 hour.</p>
+                </header>
+
+                <label for="name">Name</label>
+                <input type="text">
+                <label for="email">Email</label>
+                <input type="text">
+                <label for="select">What are you interested in?</label>
+                <select name="Interested" id="name">
+                    <option value="buy">Buy</option>
+                    <option value="buy">Trade</option>
+                    <option value="buy">Sell</option>
+                </select>
+                
+                <button type="submit">Tell Us!</button>
+                
+            </form>
+        </section>
+
+        <article class="why">
+            <header>
+                <h3>Why Us?</h3>
+            </header>
+
+            <section class="poin-why">
+                <div class="penjelasan-why">
+                    <div class="number-why">1</div>
+                    <p>Travel more than 20 countries in Asia</p>
+                </div>
+
+                <div class="penjelasan-why">
+                    <div class="number-why">2</div>
+                    <p>Partner with major hotel chains</p>
+                </div>
+
+                <div class="penjelasan-why">
+                    <div class="number-why">3</div>
+                    <p>Easy Booking</p>
+                </div>
+
+            </section>
+        </article>
+
+        <article class="separator">
+            <header>
+                <h1 class="our">Our Favorite Destinations</h1>
+            </header>
+        </article>
+
+        
+        
+        <section class="menu-utama">
+            <article class="menu-pilihan">
+                <div class="menu-separator">
+                    <div class="menu-detail">
+                        <div class="main-item-bawah">
+                            <div class="indonesia"></div>
+                            <div class="penjelasan-icon">
+                                <h3>Indonesia</h3>
+                                <p>Discover the country with the greatest cultural diversity</p>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="menu-detail">
+                        <div class="main-item-bawah">
+                            <div class="china"></div>
+                            <div class="penjelasan-icon">
+                                <h3>China</h3>
+                                <p>Exploring the historical culture and modern technology </p>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="menu-detail">
+                        <div class="main-item-bawah">
+                            <div class="india"></div>
+                            <div class="penjelasan-icon">
+                                <h3>India</h3>
+                                <p>A place with diverse ancient cultures </p>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+    
+                <div class="menu-separator">
+                    <div class="menu-detail">
+                        <div class="main-item-bawah">
+                            <div class="taiwan"></div>
+                            <div class="penjelasan-icon">
+                                <h3>Taiwan</h3>
+                                <p>Find the best street food in Asia</p>
+                            </div>
+                         </div>
+                    </div>
+
+                            </div>
+                         </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <article class="closing">
+                <header class="header-closing">
+                    <h1>Let's Travel with Us!</h1>
+                </header>
+                <p class="pesan-closing">Enjoy traveling around countries in Asia with an amazing experience with Travel.com. Determine your favorite destination and go with us now!</p>
+        </article>
+
+            <div class="button-bawah">
+                <button>Book Now!</button>
+            </div>
+        </article>
+
+        <footer>
+           
+            <p class="footer">
+                All right reserved Copyrigt 2024
+            </p>
+        </footer>
+        
+        <form class="main-content-item">
+            <input type="text" id="input-name" placeholder="Name" >
+            <button type="button" onclick="formValidation();"> Submit</button>
+        </form>
+
+    
+    </main>
+
+    <script src="script.js"></script>
+</body>
+ 
+</html>
